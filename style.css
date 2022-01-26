@@ -1,0 +1,764 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+html{
+    font-size: 15px;
+    scroll-behavior: smooth;
+}
+
+
+.container{
+    width: 100%;
+    padding-bottom: 14%;
+    background-image: url("image/banner.jpg");
+    background-attachment: scroll;
+    background-position: center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.inner{
+    width: 100%;
+    height: 100px;
+    color: #fff;
+    display: flex;
+    
+}
+
+
+.inner ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    transition: color 0.3s ease-in-out;
+}
+
+.inner ul li a:hover{
+    color: crimson;
+}
+
+
+
+.logo{
+    width: 20%;
+}
+
+
+.logo h1{
+    padding: 15% 0 0 28%;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+.logo h1 a{
+    text-decoration: none;
+    color: #fff;
+
+}
+
+
+.logo h1 a .crim{
+    color: crimson;
+}
+
+
+.ull{
+    width: 45%;
+    margin-left: 32%;
+}
+
+
+ul li{
+    display: inline-block;
+    padding: 2.5rem 0.9rem;
+}
+
+
+ul{
+    list-style: none;
+    text-align: center;
+}
+
+.toggle{
+    display: none;
+    position: absolute;
+    top: 10px;
+    right: 10px;    
+    border: none;
+    background-color: transparent;
+    outline: none;
+
+}
+
+
+.bar{
+    font-size: 30px;
+    color: #fff;
+    margin-top: 3px;
+}
+
+.banner{
+    width: 60%;
+    color: #fff;
+    margin: 10% 0 0 6%;
+}
+
+.banner .text-1{
+    font-size: 27px;
+}
+
+
+.banner .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    
+}
+
+
+.banner .text-3{
+    font-size: 39px;
+    margin: 5px 0;
+}
+
+
+.banner .text-3 span{
+    color: crimson;
+    font-weight: 500;
+}
+
+
+.banner a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+
+.banner a:hover{
+    background-color: transparent;
+}
+
+
+.sec{
+    max-width: 1150px;
+    margin:0 auto;
+    margin-top: 8%;
+}
+
+
+.sec .about{
+    width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+
+.about h1{
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+.about h4{
+    font-size: 20px;
+    font-weight: 500;
+    color: crimson;
+}
+
+
+
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 4%;
+}
+
+
+.about-me .about-pic{
+    width: 33%;
+    margin: 5% 0 0 4%;
+}
+
+
+.about-me .about-pic img{
+    border-radius: 6px;
+}
+
+.about-me .about-p{
+    width: 55%;
+    margin: 10% 3% 0 0;
+}
+
+
+.about-me .about-p .text{
+    
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+
+.about-p span{
+    color: crimson;
+    font-weight: 500;
+}
+
+
+.about-p p{
+    text-align: justify;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+
+.about-p a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 12px 28px;
+    margin-top: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+
+.about-p a:hover{
+    background-color: transparent;
+    color: crimson;
+}
+
+
+.sec2{
+    background-color: #111;
+    width: 100%;
+    padding-bottom: 6%;
+    margin-top: 8%;
+
+}
+
+.sec2 .about{
+    width: 300px;
+    padding-bottom: 2%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 6%;    
+    border-bottom:1px solid crimson;
+
+    
+}
+
+.sec2 .about h1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+
+.sec2 .sets{
+    width: 82%;
+    margin: 0 auto;
+    margin-top: 5%;
+
+}
+
+
+.sets h3{
+    color: #fff;
+    font-weight: 500;
+    font-size: 23px;
+    letter-spacing: 2px;
+}
+
+.sets a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 25px;
+    padding: 12px 36px;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-weight: 400;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+
+.sets a:hover{
+    background-color: transparent;
+}
+
+.sets .cvv{
+    color: crimson;
+    background-color: transparent;
+}
+
+.sets .cvv:hover{
+    color: wheat;
+    background-color: crimson;
+}
+
+
+.projects .about{
+    width: 300px;
+    height: 80px;
+    margin: 0 auto;
+    margin-top: 7%;
+    text-align: center;
+    border-bottom: 1px solid black;
+}
+
+
+.projects .project{
+    max-width: 1100px;
+    padding-bottom: 5%;
+    margin:0 auto;
+    margin-top: 4%;
+}
+
+
+.project .project-start{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 4%;
+    margin: 0 auto;
+    margin-top: 6%;
+}
+
+
+.project-pic{
+    width: 45%;
+}
+
+
+.project-pic img{
+    width: 100%;
+    border-radius: 3px;
+}
+
+.project-p{
+    width: 35%;
+    margin: 3% 5% 0 0;
+    text-align: center;
+}
+
+.project-p p{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+.project-p h4{
+    display: inline-block;
+    padding: 1.5rem 1rem;
+    color: crimson;
+    font-size: 18px;
+    font-weight: 700;
+
+}
+
+
+.project-p h4 a:hover{
+    text-decoration: none;
+}
+
+
+footer{
+    width: 100%;
+    background-color: #111;
+    margin-top: 3%;
+}
+
+
+footer .about{
+    width: 300px;
+    padding-bottom: 1%;
+    margin: 0 auto;
+    padding-top: 4%;
+    text-align: center;
+    border-bottom: 1px solid crimson;
+}
+
+footer .about h1{
+    color: #fff;
+}
+
+footer .contact{
+    width: 96%;
+}
+
+
+footer .icons{
+    text-align: center;
+    margin: 3% 0 0 6%;
+    color: crimson;
+    letter-spacing: 2px;
+
+}
+
+.icons h2{
+    padding-bottom: 2%;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 27px;
+}
+
+
+.icons span{
+    font-size: 24px;
+    padding-bottom: 4%;
+    letter-spacing: 2px;
+
+}
+
+.icons span a{
+    text-decoration: none;
+    color: crimson;
+    font-size: 24px;
+
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:1220px){
+
+    
+    .sets a{
+        padding: 12px 28px;
+    }
+
+
+}
+
+
+
+@media only screen and (max-width:1120px){
+
+    
+    .sets a{
+        padding: 12px 17px;
+    }
+
+
+}
+
+
+
+
+
+@media only screen and (max-width:991px){
+
+    
+    ul li{
+        display: inline-block;
+        padding: 2.5rem 0.2rem;
+    }
+
+    
+    .about-me .about-p{
+        width: 45%;
+        margin: 10% 3% 0 0;
+    }
+
+    
+    .sets a{
+        padding: 10px 11px;
+        font-size: 19px;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width:940px){
+
+    
+    .project-p h4{
+        display: inline-block;
+        padding: 0.6rem 0.3rem;
+        color: crimson;
+        font-size: 16px;
+        font-weight: 700;
+
+    }
+}
+
+
+
+
+@media only screen and (max-width:767px){
+
+    .toggle{
+        display: block;
+    }
+
+    .ull ul{
+        width: 100%;
+        background-color: #340404;
+        display: none;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        padding:2% 9% 1% 9%;
+        flex-direction: column;
+
+    }
+
+    
+    ul li{
+        display: inline-block;
+        padding: 1rem 0.2rem;
+    }
+
+    .container{
+        background-position: left top;
+    }
+
+    .about-me .about-pic{
+        width: 46%;
+        margin-left: 27%;
+        
+    }
+
+    
+    .about-me .about-pic img{
+        width: 100%;
+    }
+
+
+    .about-me .about-p{
+        width: 100%;
+        margin-left: 5%;
+    }
+
+
+    .sec2 .sets{
+        width: 90%;
+        margin-left: 5%;
+
+    }
+
+    .sets a{
+        padding: 9px 10px;
+        font-size: 16px;
+    }
+
+    
+    .project-pic{
+        width: 61%;
+        margin: 0 auto;
+    }
+
+
+    .project-pic img{
+        width: 100%;
+    }
+
+
+    .project-p{
+        width: 50%;
+        margin: 0 auto;
+        order: 1;
+        margin-top: 2%;
+        
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width:630px){
+
+
+    .banner .text-1{
+        font-size: 25px;
+    }
+    
+    
+    .banner .text-2{
+        font-size: 65px;
+    }
+
+    
+    .banner .text-3{
+        font-size: 30px;
+    }
+
+    .banner a{
+        padding: 8px 18px;
+    }
+
+    .about-me .about-p .text {
+        font-size: 21px;
+    }
+
+
+    .about-p a{
+        padding: 9px 10px;
+        font-size: 18px;
+    }
+
+
+    .sets a{
+        padding: 12px 8px;
+        font-size: 11px;
+        margin-top: 30px;
+
+    }
+
+    
+    .icons span{
+        font-size: 20px;
+
+    }
+
+    .icons span a{
+        font-size: 20px;
+    
+    }
+
+
+}
+
+
+@media only screen and (max-width:530px){
+    
+
+    .about-p p{
+        font-size: 15px;
+    }
+
+    
+    .about-me .about-p .text {
+        font-size: 19px;
+    }
+
+
+
+}
+
+
+
+@media only screen and (max-width:480px){
+    .sets a{
+        padding: 8px 8px;
+        font-size: 8px;
+
+    }
+
+    .about h1{
+        font-size: 30px;
+    }
+
+    .sec2 .about h1{
+        font-size: 36px;
+    }
+
+    .projects .about h1{
+        font-size: 30px;
+    }
+
+    .sets h3{
+        font-size: 15px;
+    }
+
+    .sets .cvv{
+        width: 90%;
+        margin: 6px auto;
+        font-size: 1rem;
+    }
+
+    .icons h2{
+        font-size: 22px;
+    }
+
+
+}
+
+
+
+
+@media only screen and (max-width:467px){
+
+    .banner .text-1{
+        font-size: 20px;
+    }
+    
+    
+    .banner .text-2{
+        font-size: 50px;
+    }
+
+    
+    .banner .text-3{
+        font-size: 20px;
+    }
+
+    .banner a{
+        padding: 6px 15px;
+    }
+
+    .icons span{
+        font-size: 17px;
+        letter-spacing: 0;
+
+    }
+
+    .icons span a{
+        font-size: 16px;
+        letter-spacing: 0;
+    
+    }
+
+
+}
+
+
+
+@media only screen and (max-width:418px){
+    .sets a{
+        padding: 5px 2px;
+        font-size: 7px;
+        margin-top: 21px;
+
+    }
+}
+
+
+
+
+
